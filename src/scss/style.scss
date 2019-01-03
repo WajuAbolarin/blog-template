@@ -1,0 +1,22 @@
+@import url('./bootstrap.min.css');
+@import url('./hl.css');
+@import url('./style.css');
+
+article {
+    blockquote {
+        text-align: left;
+        border-left : 1px solid #ffc107;
+        padding-left: .5rem;
+        margin-bottom: 1.25rem;
+        font-size: 1rem;
+    }
+
+    img{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        max-width: 100%;
+        height: auto;
+        border-radius: .25rem;
+    }
+}
