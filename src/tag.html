@@ -14,43 +14,40 @@
 
 <body>
 
-    <main role="main" class="container-fluid">
-        <header class="d-flex flex-column align-items-center p-2 pt-5 container">
-            <a href="/">
-                <img class="rounded-circle header-pic border-white" src="images/me.png" alt="Abolarin Olanrewaju Olabode">
-            </a>
-            <div class="header-pic-ring"></div>
-            <h1 class="page-title text-center mt-0 h4">Abolarin Olanrewaju</h1>
-            <small class="text-muted text-center mb-2">Fullstack developer building the web with Laravel and VueJS</small>
-            <div class="d-flex mt-1 justify-content-between">
-                <span class="mr-4 h4">
-                    <a href="https://twitter.com/waju_abolarin" target="_blank">
-                        <i class="icon-twitter"></i>
+    <main role="main">
+        <header>
+            <nav class="mb-5 p-3 px-5 shadow-sm d-flex flex-column justify-content-baseline bg-light border-bottom post-nav">
+                <div class="post-header-photo mx-auto mb-5 mx-md-0 mb-md-0">
+                    <a href="/">
+                        <img class="rounded-circle post-header-pic header-pic border-white" src="images/me.png" alt="Abolarin Olanrewaju Olabode">
+                        <div class="header-pic-ring post-header-pic-ring"></div>
                     </a>
-                </span>
-                <span class="h4">
-                    <a href="">
-                        <i class="icon-github"></i>
-                    </a>
-                </span>
-            </div>
+                </div>
+                <ul class="ml-auto nav justify-content-center align-items-baseline">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="icon-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <nav class="container mb-5">
-            <hr>
-            <ul class="nav justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-            </ul>
-            <hr>
-        </nav>
 
-        <section class="post-archive container">
-            <h1 class="h4 page-title text-center my-4"> All Articles</h1>
-            <div class="row">
+        <section class="post-archive container py-4">
+            <h1 class="text-center h4 page-title">Articles tagged <span class="tag-name d-inline-block px-1 font-italic">Javascript</span></h1>
+            <hr>
+            <div class="row py-4">
                 <div class="col col-xs-12 col-md-8 mx-auto py-2">    
                     <ul class="d-flex flex-column post-list px-2">
                         <li class="d-block post mx-auto card post-card mb-5 w-100">
@@ -75,12 +72,12 @@
                         <li class="d-block post mx-auto card post-card mb-5 w-100">
                             <div class="card-body">
                                 <a href="/article.html" class="post-title p d-block mb-3">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae dolorum enim quidem omnis dolor excepturi voluptate culpa debitis illum possimus.    
                                 </a>
                                 <footer class="post-meta text-muted d-flex">
                                     <div class="post-date">
                                         <small class="font-italic font-weight-bold">
-                                            1st Jan, 2019
+                                            5th Jan, 2019
                                         </small>
                                     </div>
                                     <div class="post-tags ml-auto d-flex justify-content-around">
@@ -100,6 +97,7 @@
             </div>
             <hr>
         </section>
+
         <footer class="site-footer text-muted text-center p-5">
             &copy; 2018 &nbsp; <a href="mailto:waju.abolarin@gmail.com">Waju</a>
         </footer>

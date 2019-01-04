@@ -1,5 +1,7 @@
 import '../index.html'
+import '../tag.html'
 import '../article.html'
+import '../javascript.html'
 import '../scss/style.scss'
 /**Necessary for loadig styles and copying over html files */
 import hljs from  'highlight.js'

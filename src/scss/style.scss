@@ -5,8 +5,8 @@
 article {
     blockquote {
         text-align: left;
-        border-left : 1px solid #ffc107;
-        padding-left: .5rem;
+        border-left : 3px solid rgba(184, 172, 9, 0.488);
+        padding-left: .7rem;
         margin-bottom: 1.25rem;
         font-size: 1rem;
     }
@@ -19,4 +19,36 @@ article {
         height: auto;
         border-radius: .25rem;
     }
+}
+span.tag-name{
+    background: rgba(184, 172, 9, 0.488);
+    transform: rotate(-2deg);
+}
+.btn {
+    border-color: rgba(184, 172, 9, 0.488);
+    color: #000;
+    font-weight: 700;
+
+}
+.btn-outline-secondary:hover {
+    color: #000;
+    background-color: rgba(184, 172, 9, 0.488);
+    border-color: rgba(184, 172, 9, 0.488);
+}
+
+.nav-item{
+    border: 2px solid transparent;
+    font-weight: 900;
+}
+.nav-item.active,
+.nav-item:hover{
+    border-bottom: 2px solid rgba(184, 172, 9, 0.488);
+}
+.copy-mail{
+    background: rgba(184, 172, 9, 0.488);
+    transform: rotate(-2deg);
+    display: inline-block;
+    font-weight: 900;
+    font-family: Poppins;
+    padding: 0 .5em;
 }

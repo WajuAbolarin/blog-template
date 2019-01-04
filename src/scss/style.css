@@ -70,9 +70,6 @@ body{
 .post-nav {
     z-index: -3;
 }
-.copy-mail{
-    text-decoration: underline;
-}
 
 /* DEV ONLY */ 
 .debug{
