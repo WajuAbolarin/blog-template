@@ -27,11 +27,13 @@ body{
     z-index: 1;
     position: relative;
 }
+
 .header-pic-ring,
 .post-header-pic-ring{
     width: 105px;
     height: 105px;
     border: 2px solid rgba(184, 172, 9, 0.488);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
     top: -100px;
     left: -1px;
     border-radius: 100%;

@@ -50,5 +50,30 @@ span.tag-name{
     display: inline-block;
     font-weight: 900;
     font-family: Poppins;
-    padding: 0 .5em;
+    padding: .5em;
+    margin-right: .9em;
+}
+    
+.credits{
+    position: fixed;
+    bottom: 0;
+    // left: -25px;
+    pointer-events: none;
+    font-size: 0.7rem;
+    margin-bottom: .4em;
+}
+
+.upright{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotateZ(180deg);
+}
+
+.site-footer{
+    background: url('/images/rock.png');
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin: 0;
+    border-top: 2px solid #E5E6E7;    
 }

@@ -129,11 +129,13 @@ body{
     z-index: 1;
     position: relative;
 }
+
 .header-pic-ring,
 .post-header-pic-ring{
     width: 105px;
     height: 105px;
     border: 2px solid rgba(184, 172, 9, 0.488);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
     top: -100px;
     left: -1px;
     border-radius: 100%;
@@ -221,7 +223,30 @@ span.tag-name {
   display: inline-block;
   font-weight: 900;
   font-family: Poppins;
-  padding: 0 .5em; }
+  padding: .5em;
+  margin-right: .9em; }
+
+.credits {
+  position: fixed;
+  bottom: 0;
+  pointer-events: none;
+  font-size: 0.7rem;
+  margin-bottom: .4em; }
+
+.upright {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotateZ(180deg); }
+
+.site-footer {
+  background: url("/images/rock.png");
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: 0;
+  border-top: 2px solid #E5E6E7; }
 
 
 /*# sourceMappingURL=main.css.map*/
